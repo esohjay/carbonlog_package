@@ -1,0 +1,662 @@
+[
+  {
+    "id": "01",
+    "activity": "Products of agriculture, hunting and related services         ",
+    "co2e": 2.63302861757527,
+    "co2": 0.640932121635878
+  },
+  {
+    "id": "02",
+    "activity": "Products of forestry, logging and related services         ",
+    "co2e": 0.111688482703221,
+    "co2": 0.083636948702851
+  },
+  {
+    "id": "03",
+    "activity": "Fish and other fishing products; aquaculture products; support services to fishing     ",
+    "co2e": 0.741699910004707,
+    "co2": 0.56297724630575
+  },
+  {
+    "id": "05",
+    "activity": "Coal and lignite             ",
+    "co2e": 1.19783371688522,
+    "co2": 0.452727561742113
+  },
+  {
+    "id": "06",
+    "activity": "Crude petroleum and natural gas           ",
+    "co2e": 0.509563708861475,
+    "co2": 0.271932059099262
+  },
+  {
+    "id": "08",
+    "activity": "Other mining and quarrying products           ",
+    "co2e": 0.83680590081278,
+    "co2": 0.69655484310219
+  },
+  {
+    "id": "09",
+    "activity": "Mining support services             ",
+    "co2e": 2.07985705995815,
+    "co2": 1.47857252088241
+  },
+  {
+    "id": "10.1",
+    "activity": "Preserved meat and meat products           ",
+    "co2e": 0.870598048729068,
+    "co2": 0.358088534541563
+  },
+  {
+    "id": "10.2",
+    "activity": "Processed and preserved fish, crustaceans, molluscs, fruit and vegetables       ",
+    "co2e": 0.83192564000359,
+    "co2": 0.368230157371602
+  },
+  {
+    "id": "10.4",
+    "activity": "Vegetable and animal oils and fats          ",
+    "co2e": 0.871782257062769,
+    "co2": 0.384954366931829
+  },
+  {
+    "id": "10.5",
+    "activity": "Dairy products              ",
+    "co2e": 1.1264360875029,
+    "co2": 0.452495457107319
+  },
+  {
+    "id": "10.6",
+    "activity": "Grain mill products, starches and starch products         ",
+    "co2e": 0.847974326851347,
+    "co2": 0.369258143402199
+  },
+  {
+    "id": "10.7",
+    "activity": "Bakery and farinaceous products            ",
+    "co2e": 0.560209320061706,
+    "co2": 0.286515491122738
+  },
+  {
+    "id": "10.8",
+    "activity": "Other food products             ",
+    "co2e": 0.797482777203271,
+    "co2": 0.348463901825249
+  },
+  {
+    "id": "10.9",
+    "activity": "Prepared animal feeds             ",
+    "co2e": 1.14740023382779,
+    "co2": 0.495605741448946
+  },
+  {
+    "id": "11.01-6",
+    "activity": "Alcoholic beverages              ",
+    "co2e": 0.928638639380429,
+    "co2": 0.382680008216665
+  },
+  {
+    "id": "11.07",
+    "activity": "Soft drinks              ",
+    "co2e": 0.564823542138365,
+    "co2": 0.277705754846811
+  },
+  {
+    "id": "12",
+    "activity": "Tobacco products              ",
+    "co2e": 0.833469329874174,
+    "co2": 0.318737795993377
+  },
+  {
+    "id": "13",
+    "activity": "Textiles               ",
+    "co2e": 0.782675396027314,
+    "co2": 0.573818683694694
+  },
+  {
+    "id": "14",
+    "activity": "Wearing apparel              ",
+    "co2e": 0.667800152245646,
+    "co2": 0.490279212033697
+  },
+  {
+    "id": "15",
+    "activity": "Leather and related products            ",
+    "co2e": 0.748318879175171,
+    "co2": 0.544428352868289
+  },
+  {
+    "id": "16",
+    "activity": "Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",
+    "co2e": 0.469328489421848,
+    "co2": 0.397924013833165
+  },
+  {
+    "id": "17",
+    "activity": "Paper and paper products            ",
+    "co2e": 0.80499733889321,
+    "co2": 0.664092090573435
+  },
+  {
+    "id": "18",
+    "activity": "Printing and recording services            ",
+    "co2e": 0.416570121736142,
+    "co2": 0.353457353489492
+  },
+  {
+    "id": "19",
+    "activity": "Coke and refined petroleum products           ",
+    "co2e": 1.14952112105466,
+    "co2": 0.776760814500763
+  },
+  {
+    "id": "20.3",
+    "activity": "Paints, varnishes and similar coatings, printing ink and mastics       ",
+    "co2e": 1.21213654969698,
+    "co2": 0.951245066188042
+  },
+  {
+    "id": "20.4",
+    "activity": "Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations     ",
+    "co2e": 0.833539598722846,
+    "co2": 0.651434855762815
+  },
+  {
+    "id": "20.5",
+    "activity": "Other chemical products             ",
+    "co2e": 0.598943317279024,
+    "co2": 0.469595017839872
+  },
+  {
+    "id": "20A",
+    "activity": "Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15      ",
+    "co2e": 1.17146218913612,
+    "co2": 0.922025485390805
+  },
+  {
+    "id": "20B",
+    "activity": "Petrochemicals - 20.14/16/17/60             ",
+    "co2e": 1.22662225591734,
+    "co2": 0.962529805244147
+  },
+  {
+    "id": "20C",
+    "activity": "Dyestuffs, agro-chemicals - 20.12/20            ",
+    "co2e": 1.22661354315812,
+    "co2": 0.962523460064746
+  },
+  {
+    "id": "21",
+    "activity": "Basic pharmaceutical products and pharmaceutical preparations          ",
+    "co2e": 0.240241960139895,
+    "co2": 0.180842442994059
+  },
+  {
+    "id": "22",
+    "activity": "Rubber and plastic products            ",
+    "co2e": 0.768925710937624,
+    "co2": 0.609283300889386
+  },
+  {
+    "id": "23.5-6",
+    "activity": "Cement, lime, plaster and articles of concrete, cement and plaster ",
+    "co2e": 2.15278996872209,
+    "co2": 1.99678092838137
+  },
+  {
+    "id": "23OTHER",
+    "activity": "Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9   ",
+    "co2e": 1.76320124771929,
+    "co2": 1.62758665347524
+  },
+  {
+    "id": "24.1-3",
+    "activity": "Basic iron and steel            ",
+    "co2e": 0.768529346310184,
+    "co2": 0.67764410338023
+  },
+  {
+    "id": "24.4-5",
+    "activity": "Other basic metals and casting           ",
+    "co2e": 0.0207273881063451,
+    "co2": 0.0192463803532833
+  },
+  {
+    "id": "25.4",
+    "activity": "Weapons and ammunition             ",
+    "co2e": 0.512694236938599,
+    "co2": 0.427183218156188
+  },
+  {
+    "id": "25OTHER",
+    "activity": "Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9   ",
+    "co2e": 0.695731865417764,
+    "co2": 0.58598939333958
+  },
+  {
+    "id": "26",
+    "activity": "Computer, electronic and optical products           ",
+    "co2e": 0.50743682948173,
+    "co2": 0.41474961063247
+  },
+  {
+    "id": "27",
+    "activity": "Electrical equipment              ",
+    "co2e": 0.94152562111732,
+    "co2": 0.758593929825139
+  },
+  {
+    "id": "28",
+    "activity": "Machinery and equipment n.e.c.            ",
+    "co2e": 0.580392450128016,
+    "co2": 0.479509060839285
+  },
+  {
+    "id": "29",
+    "activity": "Motor vehicles, trailers and semi-trailers           ",
+    "co2e": 0.545797827665895,
+    "co2": 0.452774101242857
+  },
+  {
+    "id": "30.1",
+    "activity": "Ships and boats             ",
+    "co2e": 0.301787743552205,
+    "co2": 0.252528327322321
+  },
+  {
+    "id": "30.3",
+    "activity": "Air and spacecraft and related machinery          ",
+    "co2e": 0.410461628483803,
+    "co2": 0.338915855397606
+  },
+  {
+    "id": "30OTHER",
+    "activity": "Other transport equipment - 30.2/4/9           ",
+    "co2e": 0.404691812613952,
+    "co2": 0.334901364129496
+  },
+  {
+    "id": "31",
+    "activity": "Furniture               ",
+    "co2e": 0.516389082301396,
+    "co2": 0.425957064882334
+  },
+  {
+    "id": "32",
+    "activity": "Other manufactured goods             ",
+    "co2e": 0.703887008441862,
+    "co2": 0.572884901112863
+  },
+  {
+    "id": "33.15",
+    "activity": "Repair and maintenance of ships and boats         ",
+    "co2e": 0.183419404474879,
+    "co2": 0.158922569494239
+  },
+  {
+    "id": "33.16",
+    "activity": "Repair and maintenance of aircraft and spacecraft         ",
+    "co2e": 0.0956929455032737,
+    "co2": 0.0810762038213438
+  },
+  {
+    "id": "33OTHER",
+    "activity": "Rest of repair; Installation - 33.11-14/17/19/20          ",
+    "co2e": 0.331312348748379,
+    "co2": 0.278317370216846
+  },
+  {
+    "id": "35.1",
+    "activity": "Electricity, transmission and distribution",
+    "co2e": 1.3589813852931,
+    "co2": 1.17236618092916
+  },
+  {
+    "id": "35.2-3",
+    "activity": "Gas; distribution of gaseous fuels through mains; steam and air conditioning supply    ",
+    "co2e": 1.26794901890962,
+    "co2": 0.976772078166775
+  },
+  {
+    "id": "36",
+    "activity": "Natural water; water treatment and supply services         ",
+    "co2e": 0.216720077995113,
+    "co2": 0.190651140385932
+  },
+  {
+    "id": "37",
+    "activity": "Sewerage services; sewage sludge            ",
+    "co2e": 0.382658284290225,
+    "co2": 0.112630073780108
+  },
+  {
+    "id": "38",
+    "activity": "Waste collection, treatment and disposal services; materials recovery services       ",
+    "co2e": 1.36034597766925,
+    "co2": 0.43808433390779
+  },
+  {
+    "id": "39",
+    "activity": "Remediation services and other waste management services         ",
+    "co2e": 0.191485177295916,
+    "co2": 0.139567827943404
+  },
+  {
+    "id": "41.2",
+    "activity": "Buildings and building construction works           ",
+    "co2e": 0.280106662876086,
+    "co2": 0.238222608699632
+  },
+  {
+    "id": "42.1-2",
+    "activity": "Constructions and construction works for civil engineering         ",
+    "co2e": 0.32603907003604,
+    "co2": 0.286435477547703
+  },
+  {
+    "id": "42.99",
+    "activity": "Specialised construction works             ",
+    "co2e": 0.272928549392066,
+    "co2": 0.234412672297741
+  },
+  {
+    "id": "45",
+    "activity": "Wholesale and retail trade and repair services of motor vehicles and motorcycles    ",
+    "co2e": 0.295857564463765,
+    "co2": 0.246158911800626
+  },
+  {
+    "id": "46",
+    "activity": "Wholesale trade services, except of motor vehicles and motorcycles       ",
+    "co2e": 3.89528248185561,
+    "co2": 3.1149439827163
+  },
+  {
+    "id": "47",
+    "activity": "Retail trade services, except of motor vehicles and motorcycles       ",
+    "co2e": 0.327801249497427,
+    "co2": 0.232438848516467
+  },
+  {
+    "id": "49.1-2",
+    "activity": "Rail transport services             ",
+    "co2e": 0.472453889557341,
+    "co2": 0.40547230407657
+  },
+  {
+    "id": "49.3-5",
+    "activity": "Land transport services and transport services via pipelines, excluding rail transport     ",
+    "co2e": 0.635925810409653,
+    "co2": 0.545221207232683
+  },
+  {
+    "id": "50",
+    "activity": "Water transport services             ",
+    "co2e": 1.77973828488957,
+    "co2": 1.70478935407146
+  },
+  {
+    "id": "51",
+    "activity": "Air transport services             ",
+    "co2e": 1.7882938165103,
+    "co2": 1.64835562723733
+  },
+  {
+    "id": "52",
+    "activity": "Warehousing and support services for transportation          ",
+    "co2e": 0.398584407218428,
+    "co2": 0.342824378236027
+  },
+  {
+    "id": "53",
+    "activity": "Postal and courier services            ",
+    "co2e": 0.261866615671557,
+    "co2": 0.228729337057338
+  },
+  {
+    "id": "55",
+    "activity": "Accommodation services              ",
+    "co2e": 0.249481551457706,
+    "co2": 0.164411993320893
+  },
+  {
+    "id": "56",
+    "activity": "Food and beverage serving services           ",
+    "co2e": 0.291929905940311,
+    "co2": 0.199269929331614
+  },
+  {
+    "id": "58",
+    "activity": "Publishing services              ",
+    "co2e": 0.11240468095585,
+    "co2": 0.0889842637103787
+  },
+  {
+    "id": "59",
+    "activity": "Motion picture, video and TV programme production services, sound recording & music publishing   ",
+    "co2e": 0.122442684982374,
+    "co2": 0.0953871295766133
+  },
+  {
+    "id": "60",
+    "activity": "Programming and broadcasting services            ",
+    "co2e": 0.183230671383241,
+    "co2": 0.143523265930608
+  },
+  {
+    "id": "61",
+    "activity": "Telecommunications services              ",
+    "co2e": 0.111417731256976,
+    "co2": 0.0913008919530505
+  },
+  {
+    "id": "62",
+    "activity": "Computer programming, consultancy and related services          ",
+    "co2e": 0.117653235531803,
+    "co2": 0.0923899862366049
+  },
+  {
+    "id": "63",
+    "activity": "Information services              ",
+    "co2e": 0.200067474824525,
+    "co2": 0.154271020256183
+  },
+  {
+    "id": "64",
+    "activity": "Financial services, except insurance and pension funding         ",
+    "co2e": 0.0945763043024244,
+    "co2": 0.0774406433833502
+  },
+  {
+    "id": "65.1-2",
+    "activity": "Insurance, reinsurance and pension funding services, except compulsory social security      ",
+    "co2e": 0.0820521183512624,
+    "co2": 0.0612095788198872
+  },
+  {
+    "id": "66",
+    "activity": "Services auxiliary to financial services and insurance services        ",
+    "co2e": 0.0767025365759124,
+    "co2": 0.061530542875685
+  },
+  {
+    "id": "68.12",
+    "activity": "Real estate services, excluding on a fee or contract basis and imputed rent   ",
+    "co2e": 0.118473253353063,
+    "co2": 0.0911719031149603
+  },
+  {
+    "id": "68.2IMP",
+    "activity": "Owner-Occupiers' Housing Services",
+    "co2e": 0.0349229232309754,
+    "co2": 0.02944238414422
+  },
+  {
+    "id": "68.3",
+    "activity": "Real estate services on a fee or contract basis       ",
+    "co2e": 0.0894609841327459,
+    "co2": 0.0758910095295976
+  },
+  {
+    "id": "69.1",
+    "activity": "Legal services              ",
+    "co2e": 0.0517873549977246,
+    "co2": 0.0402477699260908
+  },
+  {
+    "id": "69.2",
+    "activity": "Accounting, bookkeeping and auditing services; tax consulting services        ",
+    "co2e": 0.0687134345430388,
+    "co2": 0.05337770401061
+  },
+  {
+    "id": "70",
+    "activity": "Services of head offices; management consulting services         ",
+    "co2e": 0.118043984636498,
+    "co2": 0.0924439995831129
+  },
+  {
+    "id": "71",
+    "activity": "Architectural and engineering services; technical testing and analysis services       ",
+    "co2e": 0.190254045666908,
+    "co2": 0.145483278495357
+  },
+  {
+    "id": "72",
+    "activity": "Scientific research and development services           ",
+    "co2e": 0.192073675531068,
+    "co2": 0.155552188188285
+  },
+  {
+    "id": "73",
+    "activity": "Advertising and market research services           ",
+    "co2e": 0.101473577767142,
+    "co2": 0.0806503327261199
+  },
+  {
+    "id": "74",
+    "activity": "Other professional, scientific and technical services          ",
+    "co2e": 0.150720587493706,
+    "co2": 0.116041259422759
+  },
+  {
+    "id": "75",
+    "activity": "Veterinary services              ",
+    "co2e": 0.100277434025437,
+    "co2": 0.0762657177681112
+  },
+  {
+    "id": "77",
+    "activity": "Rental and leasing services            ",
+    "co2e": 0.149869294497334,
+    "co2": 0.119799268953016
+  },
+  {
+    "id": "78",
+    "activity": "Employment services              ",
+    "co2e": 0.0611134735829475,
+    "co2": 0.0477858941884127
+  },
+  {
+    "id": "79",
+    "activity": "Travel agency, tour operator and other reservation services and related services     ",
+    "co2e": 0.366330234278436,
+    "co2": 0.291336746920977
+  },
+  {
+    "id": "80",
+    "activity": "Security and investigation services            ",
+    "co2e": 0.0853218971292675,
+    "co2": 0.0705707576822533
+  },
+  {
+    "id": "81",
+    "activity": "Services to buildings and landscape           ",
+    "co2e": 0.164719885737097,
+    "co2": 0.135620010162371
+  },
+  {
+    "id": "82",
+    "activity": "Office administrative, office support and other business support services       ",
+    "co2e": 0.202389644760226,
+    "co2": 0.154035398893947
+  },
+  {
+    "id": "84",
+    "activity": "Public administration and defence services; compulsory social security services       ",
+    "co2e": 0.26642809645445,
+    "co2": 0.218082210647237
+  },
+  {
+    "id": "85",
+    "activity": "Education services              ",
+    "co2e": 0.135948004859188,
+    "co2": 0.106353751373068
+  },
+  {
+    "id": "86",
+    "activity": "Human health services             ",
+    "co2e": 0.214496503049617,
+    "co2": 0.170913795839342
+  },
+  {
+    "id": "87",
+    "activity": "Residential care services             ",
+    "co2e": 0.142650606382988,
+    "co2": 0.102777551249947
+  },
+  {
+    "id": "88",
+    "activity": "Social work services without accommodation           ",
+    "co2e": 0.161854968775094,
+    "co2": 0.118676482865555
+  },
+  {
+    "id": "90",
+    "activity": "Creative, arts and entertainment services           ",
+    "co2e": 0.449753363140149,
+    "co2": 0.341794939024409
+  },
+  {
+    "id": "91",
+    "activity": "Libraries, archives, museums and other cultural services         ",
+    "co2e": 0.231689799313288,
+    "co2": 0.182007855424814
+  },
+  {
+    "id": "92",
+    "activity": "Gambling and betting services            ",
+    "co2e": 0.133333915619375,
+    "co2": 0.0982500409604011
+  },
+  {
+    "id": "93",
+    "activity": "Sports services and amusement and recreation services         ",
+    "co2e": 0.246134871404356,
+    "co2": 0.185214818491694
+  },
+  {
+    "id": "94",
+    "activity": "Services furnished by membership organisations           ",
+    "co2e": 0.176405169987377,
+    "co2": 0.137498302288062
+  },
+  {
+    "id": "95",
+    "activity": "Repair services of computers and personal and household goods       ",
+    "co2e": 0.146537783420849,
+    "co2": 0.108786064676091
+  },
+  {
+    "id": "96",
+    "activity": "Other personal services             ",
+    "co2e": 0.0914525415330485,
+    "co2": 0.075062057039723
+  },
+  {
+    "id": "97",
+    "activity": "Services of households as employers of domestic personnel        ",
+    "co2e": 0.0451168254483837,
+    "co2": 0.0443863127142346
+  }
+]

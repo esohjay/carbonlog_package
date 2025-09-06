@@ -1,0 +1,47 @@
+{
+  "name": "carbonlog-cf",
+  "version": "0.0.1",
+  "description": "DEFRA conversion factors for carbon footprint calculations",
+  "author": "Olusoji Daramola",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esohjay/carbonlog-cf"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "test:watch": "vitest watch",
+    "test:coverage": "vitest run --coverage",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "carbon",
+    "emissions",
+    "defra",
+    "conversion-factors",
+    "sustainability"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@vitest/coverage-v8": "^3.2.4",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
