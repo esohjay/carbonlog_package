@@ -1,12 +1,12 @@
 {
   "name": "carbonlog-cf",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "DEFRA conversion factors for carbon footprint calculations",
   "author": "Olusoji Daramola",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/esohjay/carbonlog-cf"
+    "url": "https://github.com/esohjay/carbonlog_package"
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

@@ -58,13 +58,19 @@ describe("multipliers", () => {
   it("should calculate COICOP emissions", () => {
     const activity = "Garments";
     const value = 100;
-    try {
-      const result = findCoicopMultiplierAndCalculate(activity, value);
-      expect(result).toHaveProperty("co2");
-      expect(result).toHaveProperty("co2e");
-    } catch (e) {
-      expect(e).toBeInstanceOf(Error); // in case no match is found
-    }
+    const result = findCoicopMultiplierAndCalculate(activity, value);
+    expect(result).toHaveProperty("co2");
+    expect(result).toHaveProperty("co2e");
+  });
+
+  it("should return null values for missing Coicop multiplier", () => {
+    const activity = "Wearing apparel missing";
+    const value = 50;
+
+    const result = findCoicopMultiplierAndCalculate(activity, value);
+    expect(result.activity).toBeNull();
+    expect(result.co2).toBeNull();
+    expect(result.co2e).toBeNull();
   });
 
   it("should find a SIC multiplier", () => {
@@ -75,12 +81,18 @@ describe("multipliers", () => {
   it("should calculate SIC emissions", () => {
     const activity = "Wearing apparel";
     const value = 50;
-    try {
-      const result = findSicMultiplierAndCalculate(activity, value);
-      expect(result).toHaveProperty("co2");
-      expect(result).toHaveProperty("co2e");
-    } catch (e) {
-      expect(e).toBeInstanceOf(Error);
-    }
+
+    const result = findSicMultiplierAndCalculate(activity, value);
+    expect(result).toHaveProperty("co2");
+    expect(result).toHaveProperty("co2e");
+  });
+  it("should return null values for missing SIC multiplier", () => {
+    const activity = "Wrong activity";
+    const value = 50;
+
+    const result = findSicMultiplierAndCalculate(activity, value);
+    expect(result.activity).toBeNull();
+    expect(result.co2).toBeNull();
+    expect(result.co2e).toBeNull();
   });
 });

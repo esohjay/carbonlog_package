@@ -48,6 +48,7 @@ export function findAllGhgFactorsAndCalculate(
     n2o: getValue(GHG_LABELS.N2O) * value,
     unit: query.unit,
     inputAmount: value,
+    scope: factors[0].scope,
   };
 }
 export function factorById(id: string) {
@@ -63,7 +64,7 @@ export function factorByIdAndCalculate(id: string, value: number) {
 
 export function findCoicopMultiplier(activity: string) {
   return (coicopMultiplier as Multiplier[]).find(
-    (f) => f.activity === activity
+    (f) => f.activity?.trim() === activity
   );
 }
 export function findCoicopMultiplierAndCalculate(
@@ -72,7 +73,13 @@ export function findCoicopMultiplierAndCalculate(
 ) {
   const multiplier = findCoicopMultiplier(activity);
   if (!multiplier) {
-    throw new Error(`Multiplier for COICOP ${activity} not found`);
+    return {
+      co2: null,
+      co2e: null,
+      value,
+      id: null,
+      activity: null,
+    };
   }
   return {
     co2: multiplier.co2 * value,
@@ -83,13 +90,22 @@ export function findCoicopMultiplierAndCalculate(
   };
 }
 export function findSicMultiplier(activity: string) {
-  return (sicMultiplier as Multiplier[]).find((f) => f.activity === activity);
+  return (sicMultiplier as Multiplier[]).find(
+    (f) => f.activity?.trim() === activity
+  );
 }
 export function findSicMultiplierAndCalculate(activity: string, value: number) {
   const multiplier = findSicMultiplier(activity);
   if (!multiplier) {
-    throw new Error(`Multiplier for SIC ${activity} not found`);
+    return {
+      co2: null,
+      co2e: null,
+      value,
+      id: null,
+      activity: null,
+    };
   }
+
   return {
     co2: multiplier.co2 * value,
     co2e: multiplier.co2e * value,
